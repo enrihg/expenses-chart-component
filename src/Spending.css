@@ -1,0 +1,61 @@
+.Spending {
+    padding: 24px 20px 24px 20px;
+    border-radius: 8px;
+    background-color: hsl(33, 100%, 98%);
+
+    h1 {
+        font-size: 24px;
+        color: hsl(25, 47%, 15%);
+        margin-bottom: 52px;
+    }
+
+    h3 {
+        color: hsl(28, 10%, 53%);
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    hr {
+        border: 1px solid hsla(27, 66%, 92%, 1);
+        margin: 24px 0 24px 0;
+    }
+
+    .Graphic {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .Flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
+
+    .Total,
+    .Variation {
+        color: hsl(25, 47%, 15%);
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .Variation {
+        font-size: 15px;
+        text-align: end;   
+    }
+
+    .Char {
+        height: 120px;
+        width: 33px;
+        max-width: 50px;
+        border-radius: 3px;
+        background-color: hsl(10, 79%, 65%);
+    }
+
+    .Char+div {
+        margin-top: 10px;
+        color: hsl(28, 10%, 53%);
+        font-size: 12px;
+        text-align: center;
+    } 
+}

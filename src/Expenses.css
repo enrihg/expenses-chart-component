@@ -1,0 +1,6 @@
+.Expenses {
+    display: grid;
+    row-gap: 16px;
+    margin: 0 auto;
+    max-width: 540px;
+}

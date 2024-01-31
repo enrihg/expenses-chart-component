@@ -1,0 +1,26 @@
+.Balance {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* max-width: 540px; */
+    background-color: hsl(10, 79%, 65%);
+    color: hsl(33, 100%, 98%);
+    border-radius: 8px;
+    padding: 8px 24px 8px 20px;
+    
+    h2 {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    span {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    img {
+        width: 48px;
+        height: 72px;
+    }
+}
