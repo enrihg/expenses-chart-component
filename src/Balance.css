@@ -3,7 +3,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    /* max-width: 540px; */
     background-color: hsl(10, 79%, 65%);
     color: hsl(33, 100%, 98%);
     border-radius: 8px;
