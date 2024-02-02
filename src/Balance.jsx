@@ -7,7 +7,7 @@ function Balance() {
                 <h2>My balance</h2>
                 <span>$921.48</span>
             </div>
-            <img src="./assets/images/logo.svg" alt="logo" />
+            <img src="/assets/images/logo.svg" alt="logo" />
         </div>
     );
 }
