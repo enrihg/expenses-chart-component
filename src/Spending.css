@@ -20,13 +20,50 @@
         margin: 24px 0 24px 0;
     }
 
+    .Popup {
+        visibility: hidden;
+        position: absolute;
+        transform: translateY(-35px);
+        background-color: hsl(25, 47%, 15%);
+        border-radius: 5px;
+        color: hsl(33, 100%, 98%);
+        font-size: 12px;
+        font-weight: 700;
+        padding: 6px 4px 6px 4px;
+    }
+
     .Graphic {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        align-items: baseline;
-        column-gap: min-max(13px, 18px);
+        justify-content: center;
+        align-items: end;
+        column-gap: 4%;
     }
+
+    .Graphic>div {
+        width: 50%;
+        cursor: pointer;
+
+        &:hover {
+            .Chart {
+                background-color: hsl(10, 100%, 76%);
+            }
+
+            .Chart+div {
+                font-weight: 700;
+            }
+
+            .Popup {
+                visibility: visible;
+            }
+        }
+
+        &:active {
+            .Chart {
+                background-color: hsl(186, 49%, 80%);
+            }
+        }
+    }    
 
     .Flex {
         display: flex;
@@ -43,21 +80,18 @@
 
     .Variation {
         font-size: 15px;
-        text-align: end;   
+        text-align: end;
     }
 
-    .Char {
-        /* height: 50px; */
-        min-width: 33px;
-        max-width: 100px;
+    .Chart {
         border-radius: 3px;
         background-color: hsl(10, 79%, 65%);
     }
 
-    .Char+div {
+    .Chart+div {
         margin-top: 10px;
         color: hsl(28, 10%, 53%);
         font-size: 12px;
         text-align: center;
-    } 
+    }
 }
