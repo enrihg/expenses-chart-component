@@ -1,4 +1,5 @@
 import './Balance.css';
+import logo from './assets/images/logo.svg';
 
 function Balance() {
     return (
@@ -7,7 +8,7 @@ function Balance() {
                 <h2>My balance</h2>
                 <span>$921.48</span>
             </div>
-            <img src="/assets/images/logo.svg" alt="logo" />
+            <img src={logo} alt="logo"/>
         </div>
     );
 }
